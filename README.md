@@ -1,7 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Open [https://boiling-cove-92752.herokuapp.com](https://boiling-cove-92752.herokuapp.com)
 
 Things you may want to cover:
 
