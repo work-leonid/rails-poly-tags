@@ -3,6 +3,7 @@ Rails.application.routes.draw do
 
   resources :books
   resources :courses
+  resources :tags
   # Defines the root path route ("/")
   root "books#index"
 end
