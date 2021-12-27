@@ -2,10 +2,6 @@
 
 one:
   title: MyString
-  taggable: one
-  taggable_type: Taggable
 
 two:
   title: MyString
-  taggable: two
-  taggable_type: Taggable

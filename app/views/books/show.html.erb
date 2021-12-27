@@ -1,7 +1,9 @@
 <p style="color: green"><%= notice %></p>
 
 <%= render @book %>
-
+<% @book.tags.each do |tag| %>
+  <%= tag.title %>
+  <% end %>
 <div>
   <%= link_to "Edit this book", edit_book_path(@book) %> |
   <%= link_to "Back to books", books_path %>

@@ -1,10 +1,10 @@
 <h1>New tag</h1>
 
-<%= form_with model: @tag do |f| %>
+<%= form_with model: [@taggable, @tag] do |f| %>
   
   <div>
-    <%= f.label :tag %>
-    <%= f.text_field :tag %>
+    <%= f.label :title %>
+    <%= f.text_field :title %>
   </div>
   
   <%= f.submit %>

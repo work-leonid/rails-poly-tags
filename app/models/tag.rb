@@ -1,3 +1,3 @@
 class Tag < ApplicationRecord
-  belongs_to :taggable, polymorphic: true
+  has_many :taggings, dependent: :destroy
 end
