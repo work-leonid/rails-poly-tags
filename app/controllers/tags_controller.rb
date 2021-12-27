@@ -9,6 +9,8 @@ class TagsController < ApplicationController
 
   def show
     @tag = Tag.find(params[:id])
+    @book = Book.joins(:tags).where(tags: {id: @tag})
+    @course = Course.joins(:tags).where(tags: {id: @tag})
   end
 
   def create
