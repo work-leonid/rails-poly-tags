@@ -19,7 +19,6 @@
   <div>
     <%= form.label :tag %>
     <%= form.collection_check_boxes :tag_ids, Tag.all, :id, :title %>
-    <%#= form.select :tag_ids, Tag.all, {}, { multiple: true } %>
   </div>
   
   <div>
